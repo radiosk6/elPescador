@@ -1,0 +1,38 @@
+* { margin: 0; padding: 0; }
+		
+		html { 
+			background: url(../images/bg.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			
+		}
+		#logo{}
+		#desayuno{
+	display: inline-block;
+	position: absolute;
+	top: 5%;
+	left: 78%;
+			}
+		#almuerso{
+	display: inline-block;
+	position: absolute;
+	left: 78px;
+	top: 38px;
+			}
+		#cena{
+	display: inline-block;
+	position: absolute;
+	top: 70%;
+	left: 78%;
+			}
+		h1
+		{
+			font-family: verdana;
+			display: inline-block;
+			position: relative;
+			top: 10;
+			left: 50%;
+		}
+		

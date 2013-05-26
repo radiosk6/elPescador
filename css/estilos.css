@@ -1,0 +1,324 @@
+*
+{
+	margin: 0px;
+	padding: 0em;
+	
+	
+
+
+}
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+@font-face
+{
+	font-family: Chalet;
+	src: url("../fonts/Chalet.eot");
+	src: url("../fonts/Chalet.eot?#iefix") format("embedded-opentype"), url("../fonts/Chalet.woff") format("woff"), url("../fonts/Chalet.ttf") format("truetype"), url("../fonts/Chalet.svg#Chalet") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face
+{
+	font-family: admiration_pains_regular;
+	src: url('../fonts/admiration_pains-webfont.eot');
+	src: url('../fonts/admiration_pains-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/admiration_pains-webfont.woff') format('woff'), url('../fonts/admiration_pains-webfont.ttf') format('truetype'), url('../fonts/admiration_pains-webfont.svg#admiration_pains_regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face
+{
+	font-family: coalitionregular;
+	src: url('../fonts/coalition_v2.-webfont.eot');
+	src: url('../fonts/coalition_v2.-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/coalition_v2.-webfont.woff') format('woff'), url('../fonts/coalition_v2.-webfont.ttf') format('truetype'), url('../fonts/coalition_v2.-webfont.svg#coalitionregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face
+{
+	font-family: frazzleregular;
+	src: url('../fonts/frazzle_-webfont.eot');
+	src: url('../fonts/frazzle_-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/frazzle_-webfont.woff') format('woff'), url('../fonts/frazzle_-webfont.ttf') format('truetype'), url('../fonts/frazzle_-webfont.svg#frazzleregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face
+{
+	font-family: springpartyregular;
+	src: url('../fonts/springparty-webfont.eot');
+	src: url('../fonts/springparty-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/springparty-webfont.woff') format('woff'), url('../fonts/springparty-webfont.ttf') format('truetype'), url('../fonts/springparty-webfont.svg#springpartyregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face
+{
+	font-family: vtks_studyregular;
+	src: url('../fonts/vtks_study-webfont.eot');
+	src: url('../fonts/vtks_study-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/vtks_study-webfont.woff') format('woff'), url('../fonts/vtks_study-webfont.ttf') format('truetype'), url('../fonts/vtks_study-webfont.svg#vtks_studyregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+BODY
+{
+	background: url("../imges/FONDOWEB.jpg");
+	
+}
+
+#contenedor{
+	background: #F5B800;
+	max-width: 100%;
+	border: 5px solid #9f7700;
+	padding: 10px 10px;
+	margin: 0em auto;
+	
+}
+img{
+	position: relative;
+	float: left;
+
+}
+#titulo1{	
+	position: relative;
+
+	
+	font-family: "frazzleregular";
+	text-align: center;
+	padding-top: 1px;
+	padding-left:50px;
+	margin-top: 60px;
+	
+	
+
+
+
+}
+
+NAV
+{
+	position: static;
+	display: inline-block;
+	max-width: 100%;
+
+	
+}
+NAV ul{
+	margin: 2px auto;
+	position: static;
+	display: inline-block;
+
+}
+NAV ul li{
+	display: inline;
+	text-align: center;
+
+	display: inline-block;
+
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #fff;
+    border: none;
+}
+a img {
+    border: none;
+}
+div.mod {
+    margin: 0 0 30px 0;
+    padding: 80px;
+    text-align: center;
+    background: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+}
+p.notes {
+    margin: 0 0 10px 0;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #999;
+    text-align: center;
+}
+p.notes a {
+    font-weight: bold;
+    color: #777;
+    border-bottom: 1px solid #ccc;
+ -webkit-transition: color .2s ease;
+ -moz-transition: color .2s ease;
+ -o-transition: color .2s ease;
+ transition: color .2s ease;
+}
+p.notes a:hover {
+    color: #555;
+}
+p.notes span {
+    margin: 0 4px;
+    color: #ccc;
+}
+#stamp {
+    display: block;
+    margin: 20px 0;
+    border: none;
+ -webkit-transition: opacity .2s ease;
+ -moz-transition: opacity .2s ease;
+ -o-transition: opacity .2s ease;
+ transition: opacity .2s ease;
+}
+#stamp:hover {
+    opacity: .7;
+}
+/* button styles */
+ 
+.btn {
+    display: inline-block;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow:
+ 0 8px 0 #1a74a1,  0 15px 20px rgba(0, 0, 0, .35);
+    -moz-box-shadow:
+ 0 8px 0 #1a74a1,  0 15px 20px rgba(0, 0, 0, .35);
+    box-shadow:
+ 0 8px 0 #1a74a1,  0 15px 20px rgba(0, 0, 0, .35);
+ -webkit-transition: -webkit-box-shadow .2s ease-in-out;
+ -moz-transition: -moz-box-shadow .2s ease-in-out;
+ -o-transition: -o-box-shadow .2s ease-in-out;
+ transition: box-shadow .2s ease-in-out;
+}
+.btn span {
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: "cooper-black-std-1", "cooper-black-std-2", Helvetica, Arial, sans-serif;
+    line-height: 1;
+    text-shadow: 0 -1px 1px rgba(19, 65, 88, .8);
+    background: #3194c6;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3194c6), to(#5bacd6));
+    background: -moz-linear-gradient(#3194c6, #5bacd6);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+ -webkit-transition: -webkit-transform .2s ease-in-out;
+ -moz-transition: -moz-transform .2s ease-in-out;
+ -o-transition: -o-transform .2s ease-in-out;
+ transition: transform .2s ease-in-out;
+}
+.btn:active {
+    -webkit-box-shadow:
+ 0 8px 0 #1a74a1,  0 12px 10px rgba(0, 0, 0, .3);
+    -moz-box-shadow:
+ 0 8px 0 #1a74a1,  0 12px 10px rgba(0, 0, 0, .3);
+    box-shadow:
+ 0 8px 0 #1a74a1,  0 12px 10px rgba(0, 0, 0, .3);
+    -webkit-transition: -webkit-transform 0s ease-in-out;
+    -moz-transition: -moz-transform 0s ease-in-out;
+    -o-transition: -o-transform 0s ease-in-out;
+    transition: transform 0s ease-in-out;
+}
+.btn:active span {
+    -webkit-transform: translate(0, 4px);
+    -moz-transform: translate(0, 4px);
+    -o-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+    -webkit-transition: -webkit-transform 0s ease-in-out;
+    -moz-transition: -moz-transform 0s ease-in-out;
+    -o-transition: -o-transform 0s ease-in-out;
+    transition: transform 0s ease-in-out;
+}
+
+div.slash
+{
+	position: relative;
+	width: 960px;
+	height: 450px;
+	margin: auto;
+	top; 225px;
+	
+}
+img.baner{
+	
+	position: absolute;
+	top: 0px;
+}
+DIV#contenedorrs
+{
+	position: static;
+	margin: 0.5em auto;
+	background: #FFF;
+	padding: 0;
+	
+}
+SECTION#redessociales
+{	
+	position: static;
+	background: #1E6381;
+	padding: 0.25em;
+	border-radius: 0.5mp;
+	display: inline-block;
+	margin: 0.25em auto;
+	text-align: center;
+	vertical-align: top;
+	display: inline-table;
+}
+
+#contenedor1
+{
+	position: static;
+	display: inline-block;
+	margin: 0px auto;
+	max-width: 70%;
+
+
+}
+#cosasprimero{
+	display: inline-block;
+	margin: 0px auto;
+	max-width: 300px;
+	position: static;
+	height: 200px;
+	background-color: #cc3333;
+	margin: 0px auto;
+	min-width: 100px;
+	width: 300px;
+}
+#cosa2{
+	display: inline-block;
+	margin: 0px auto;
+	max-width: 50%;
+	position: static;
+	background-color: #100404;
+	margin: 0px auto;
+	height: 200px;
+	width: 400px;
+
+	
+}
+FOOTER
+{
+	margin: 0.5em auto;
+	background: #FFF;
+	max-width: 960px;
+	padding: 0;
+	text-align: center;
+}
+#horarios, #reservaciones, #informacion
+{
+	background: #1E6381;
+	padding: 0.25em;
+	border-radius: 0.5mp;
+	display: inline-block;
+	margin: 0.25em auto;
+	max-width: 960px;
+	text-align: center;
+	min-height: 200px;
+	vertical-align: top;
+}

@@ -1,0 +1,55 @@
+* { margin: 0; padding: 0; }
+		
+		html { 
+			background: url(../images/FONDO.png) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			
+		}
+	div.logo
+	{
+		display: inline-block;
+		position: absolute;
+		top: 5px;
+		left: 7px;
+	}
+	img.logoimg
+	{
+		height: 200px;
+		width: 280px;
+	}
+	nav.navegacion
+	{
+		background-color: #ff3d00;
+		display: inline-block;
+		position: absolute;
+		top: 115px;
+		left: 297px;
+		height: 85px;
+		width: 550px;
+	}
+	h1
+		{
+			font-family: verdana;
+			display: inline-block;
+			position: relative;
+			top: 10;
+			left: 50%; 
+		}
+	div.img {
+		position: absolute;
+		display: inline-block;
+		background-color: #a62800;
+		height: 400px;
+		width: 960px;
+		top: 225px;
+		left: 200px;
+
+	}
+	div.inferior
+	{
+		background:  
+		top: 650px;
+	}
