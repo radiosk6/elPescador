@@ -1,4 +1,4 @@
-* { margin: 0; padding: 0; }
+* { margin: 0px; padding: 0px; }
 		
 		html { 
 			background: url(../images/FONDO.png) no-repeat center center fixed; 
@@ -22,13 +22,56 @@
 	}
 	nav.navegacion
 	{
-		background-color: #ff3d00;
+		
 		display: inline-block;
 		position: absolute;
-		top: 115px;
+		 
+		 top: 115px;
 		left: 297px;
 		height: 85px;
-		width: 550px;
+		width: 690px;
+	}
+	li{
+		display: inline-block;
+		vertical-align: top;
+		background:-ms-linear-gradient(#ffb173 0%, #ff7100 100%);
+		background: -moz-linear-gradient(#ffb173 0%, #ff7100 100%);
+		background: -o-linear-gradient(#ffb173 0%, #ff7100 100%);
+		background: -webkit-linear-gradient(#ffb173 0%, #ff7100 100%);
+		border-radius: 15px 0px 15px 0px;
+		margin:5px;
+		border:solid 2px #a64a00;
+		color: White ;
+		padding: 5px;
+		text-align: center;
+		width: 100px;
+		transition:1s;
+		}
+	a{
+		color: #ffffff;
+		text-decoration: none;
+	}
+	li:hover{
+		background:-ms- linear-gadient(#09f 0%, #03f 100px);
+		background:-moz- linear-gadient(#09f 0%, #03f 100px);
+		background:-o- linear-gadient(#09f 0%, #03f 100px);
+		background:-wenkit- linear-gadient(#09f 0%, #03f 100px);
+		box-shadow: 0 0 10px #fff;
+		-o-box-shadow: 0 0 10px #fff;
+		-ms-box-shadow: 0 0 10px #fff;
+		-moz-box-shadow: 0 0 10px #fff;
+		-webkit-box-shadow: 0 0 10px #fff;
+		
+		text-shadow: 0 0 5px #fff;
+		-ms-text-shadow: 0 0 5px #fff;
+		-moz-text-shadow: 0 0 5px #fff;
+		-o-text-shadow: 0 0 5px #fff;
+		-wenkit-text-shadow: 0 0 5px #fff;
+		padding: 15px;
+		font-size: 16px;
+		color:#fff;
+
+
 	}
 	h1
 		{
