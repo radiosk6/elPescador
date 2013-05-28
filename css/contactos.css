@@ -1,0 +1,13 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+[required]{
+	border-color: green;
+	box-shadow: 0px 0px 5px green;
+
+}
+:invalid{
+	border-color: red;
+	box-shadow: 0px 0px 5px red;
+}

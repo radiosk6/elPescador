@@ -1,0 +1,160 @@
+* { margin: 0px; padding: 0px; }
+		
+		html { 
+			background: url(../images/FONDO.png) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			
+		}
+		@font-face {
+    font-family: 'ArchitectsDaughterRegular';
+	src: url('../fonts/ArchitectsDaughter-webfont.eot');
+    src: url('../fonts/ArchitectsDaughter-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ArchitectsDaughter-webfont.woff') format('woff'),
+         url('../fonts/ArchitectsDaughter-webfont.ttf') format('truetype'),
+         url('../fonts/ArchitectsDaughter-webfont.svg#ArchitectsDaughterRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+	div.logo
+	{
+		display: inline-block;
+		position: absolute;
+		top: 5px;
+		left: 7px;
+
+	}
+	img.logoimg
+	{
+		height: 200px;
+		width: 280px;
+	}
+	nav.navegacion
+	{
+		
+		display: inline-block;
+		position: absolute;
+		 
+		 top: 115px;
+		left: 297px;
+		height: 85px;
+		width: 690px;
+	}
+	li{
+		display: inline-block;
+		vertical-align: top;
+		background:-ms-linear-gradient(#ffb173 0%, #ff7100 100%);
+		background: -moz-linear-gradient(#ffb173 0%, #ff7100 100%);
+		background: -o-linear-gradient(#ffb173 0%, #ff7100 100%);
+		background: -webkit-linear-gradient(#ffb173 0%, #ff7100 100%);
+		border-radius: 15px 0px 15px 0px;
+		margin:5px;
+		border:solid 2px #a64a00;
+		color: White ;
+		padding: 5px;
+		text-align: center;
+		width: 100px;
+		transition:1s;
+		}
+	a{
+		color: #ffffff;
+		text-decoration: none;
+	}
+	li:hover{
+		background:-ms- linear-gadient(#09f 0%, #03f 100px);
+		background:-moz- linear-gadient(#09f 0%, #03f 100px);
+		background:-o- linear-gadient(#09f 0%, #03f 100px);
+		background:-wenkit- linear-gadient(#09f 0%, #03f 100px);
+		box-shadow: 0 0 10px #fff;
+		-o-box-shadow: 0 0 10px #fff;
+		-ms-box-shadow: 0 0 10px #fff;
+		-moz-box-shadow: 0 0 10px #fff;
+		-webkit-box-shadow: 0 0 10px #fff;
+		
+		text-shadow: 0 0 5px #fff;
+		-ms-text-shadow: 0 0 5px #fff;
+		-moz-text-shadow: 0 0 5px #fff;
+		-o-text-shadow: 0 0 5px #fff;
+		-wenkit-text-shadow: 0 0 5px #fff;
+		padding: 15px;
+		font-size: 16px;
+		color:#fff;
+
+
+	}
+	h1
+		{
+			font: 60px/68px 'ArchitectsDaughterRegular', Arial, sans-serif;letter-spacing: 0;
+			display: inline-block;
+			position: absolute;
+			top: 5%;
+			left: 50%; 
+		}
+	div.img {
+		position: absolute;
+		display: inline-block;
+		background-color: #a62800;
+		height: 400px;
+		width: 850px;
+		top: 205px;
+		left: 300px;
+
+	}
+	div.inferior
+	{
+		position: absolute;
+		display: inline-block;
+		background-color: #ffffff;
+		height: 125px;
+		width: 850px;
+		top: 650px;
+		left: 300px;
+		
+	}
+	nav.selector{
+		display: inline-block;
+		position: absolute;
+	
+		height: 400px;
+		width: 150px;
+		top: 205px;
+		left: 100px
+	}
+	
+
+	
+	MENU.al{
+
+		background: -moz-radial-gradient(center, ellipse cover,  rgba(253,231,205,0) 0%, rgba(240,141,36,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(253,231,205,0)), color-stop(100%,rgba(240,141,36,1)));
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(253,231,205,0) 0%,rgba(240,141,36,1) 100%);
+background: -o-radial-gradient(center, ellipse cover,  rgba(253,231,205,0) 0%,rgba(240,141,36,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover,  rgba(253,231,205,0) 0%,rgba(240,141,36,1) 100%);
+background: radial-gradient(ellipse at center,  rgba(253,231,205,0) 0%,rgba(240,141,36,1) 100%);
+
+		border-radius: 15px 0px 15px 0px;
+		border:solid 2px #a64a00;
+		color: #130d17 ;
+		height: 50px;
+		max-width: 100%;
+		padding: 25px 0px 0px 0px;
+		text-align: center;
+		font-family:  'ArchitectsDaughterRegular';
+		transition:1s;
+		}
+		
+	#bebidasfrias
+	{
+		font-size: 16px;
+		padding: 0px;
+		height: 80px;
+	}
+	#bebidasalcoholicas{
+		padding: 15px;
+		text-align: center;
+		height: 50px;
+	}
+	

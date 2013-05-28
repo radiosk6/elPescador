@@ -1,19 +1,54 @@
 <!DOCTYPE html>
  
 <html lang="es">
-  <link rel="stylesheet" href="css/estilos.css" />
-<head>
-<title>Restaurante el pescador-contactanos</title>
-<meta charset="utf-8" />
-</head>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/contactos.css" />
+      <title>Restaurante el pescador-contactanos</title>
+    <meta charset="utf-8" />
+  </head>
  
-<body>
+  <body>
     <header>
        <h1>Contactenos</h1>
    </header>
     <section>
        <article>
-          <h2>rezervaciones </h2>
+        <h2>rezervaciones </h2>
+        <div> 
+          <table> 
+            <tr>
+              <td>Nombre</td>
+              <td>
+                <input type="text" required >
+              </td>
+            </tr>
+            <tr>
+              <td>Apellido</td>
+              <td>
+                <input type="text" required >
+              </td>
+            </tr>
+            <td>Email</td>
+              <td>
+                <input type="email" value="usuario@dominio.com" >
+              </td>
+             </tr>
+             <td>Fecha</td>
+              <td>
+                <input type="date" value"2013-02-05" >
+              </td>
+             </tr>
+             <td>Numro de Reservaciones</td>
+              <td>
+                <input type="number" step="1" min="1"
+                max="25" value ="4">
+              </td>
+             </tr>
+          </table>
+
+        </div>
        </article>
        <article>
            <h2>Ubicacion<h2>
@@ -27,5 +62,5 @@
     <footer>
         Creado por mi el 2011
     </footer>
-</body>
+  </body>
 </html>
